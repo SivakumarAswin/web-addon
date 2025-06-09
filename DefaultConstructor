@@ -1,0 +1,17 @@
+public class DefaultConstrctor {
+        String language;
+        String name;
+        int year;
+        DefaultConstrctor(String name , int year , String lang){
+            this.name=name;
+            this.year=year;
+            this.language=lang;
+        }
+        void wwe(){
+ System.out.println("userdeafault Constrctor"+""+name+""+year);
+    }
+       public static void main(String[] args){
+           DefaultConstrctor ref=new DefaultConstrctor("java",1995,"programming");
+           ref.wwe();
+       }
+}
