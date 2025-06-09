@@ -1,0 +1,19 @@
+public class singlelevel {
+}
+class subclass extends singlelevel{
+  void Message(){
+      System.out.println("Sending!!!!");
+  }  
+}
+class subclass extends singlelevel{
+    void View() {
+        System.out.println("Received....");
+    }
+}
+class main{
+    public static void main(String[] args) {
+        subclass ref=new subclass();
+        ref.Message();
+        ref.View();
+    }
+}
