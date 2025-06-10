@@ -42,7 +42,7 @@ public class bank {
 
 public static void main(String[] args) {
 sbiAcc ac=new sbiAcc("bharath",20000);
-ac.setAccholder("Bharth.A");
+ac.setAccholder("ASWIN");
 System.out.println("updated name"+ac.getAccholder());
 System.out.println("your name is:"+ac.getAccholder());
 System.out.println("your balanceis:"+ac.getBalance());
