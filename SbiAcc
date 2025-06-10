@@ -41,8 +41,8 @@ System.out.println("insufficent balance");
 public class bank {
 
 public static void main(String[] args) {
-sbiAcc ac=new sbiAcc("bharath",20000);
-ac.setAccholder("ASWIN");
+sbiAcc ac=new sbiAcc("Aswin.s",20000);
+ac.setAccholder("Aswin.s");
 System.out.println("updated name"+ac.getAccholder());
 System.out.println("your name is:"+ac.getAccholder());
 System.out.println("your balanceis:"+ac.getBalance());
