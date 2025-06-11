@@ -29,7 +29,7 @@ this.Mark=Mark;
 public class Mark {
 
 public static void main(String[] args) {
-students in=new students("Harish",65);
+students in=new students("Aswin",65);
 System.out.println("Student name :"+in.getname());
 in.setMark(300);
 System.out.println("Student Mark :"+in.getMark());
